@@ -25,6 +25,9 @@ e.g. /list/category?offset=0&limit=5&createdAt=between:2022-09-08,2022-09-09
     
 -  e.g. /list/category?name=contains:Top is traslated to WHERE name like '%Top%'
 -  e.g. /list/category?name=starts:Top is traslated to WHERE name like 'Top%'
+-  e.g. /list/category?name=eq:Top in Japan is traslated to WHERE name = 'Top in Japan'
+-  e.g. /list/category?createdAt=between:2022-09-08,2022-09-09 is traslated to WHERE createdAt BETWEEN '2022-09-08' AND '2022-09-09'
+
 
     | Key | Value |
     | ------ | ------ |
@@ -52,7 +55,7 @@ Swagger Ui Express
     
 # Installation
 
-- Prerequiste: Install MySQL 5.7 
+- Prerequiste: Install MySQL Community Server 8.0
 - Data from /data/hktv_all.sql 
     
 ## Database
