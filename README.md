@@ -75,3 +75,6 @@ Swagger Ui Express
 ```
     npm i;npm start 
 ```
+
+## Entity Relationship
+![alt text](https://github.com/calawhkbu/product/blob/main/hktv_product_offbrea_er.jpg?raw=true)
