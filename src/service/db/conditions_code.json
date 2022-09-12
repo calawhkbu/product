@@ -1,0 +1,69 @@
+[
+    {
+        "key": "lte",
+        "value": "<=",
+        "code": "<="
+    },
+    {
+        "key": "lt",
+        "value": "<",
+        "code": "<"
+
+    },
+    {
+        "key": "gt",
+        "value": ">",
+        "code": ">"
+    },
+    {
+        "key": "gte",
+        "value": ">=",
+        "code": ">="
+    },
+    {
+        "key": "eq",
+        "value": "=",
+        "code": "="
+    },
+    {
+        "key": "neq",
+        "value": "!=",
+        "code": "!="
+    },
+    {
+        "key": "between",
+        "value": "BETWEEN",
+        "code": "between"
+    },
+    {
+        "key": "notbetween",
+        "value": "NOT BETWEEN",
+        "code": "!between"
+    },
+    {
+        "key": "null",
+        "value": "IS NULL",
+        "code": "null"
+    },
+    {
+        "key": "notnull",
+        "value": "IS NOT NULL",
+        "code": "!null"
+
+    },
+    {
+        "key": "contains",
+        "value": "%_%",
+        "code":"contains"
+    },
+    {
+        "key": "starts",
+        "value": "_%",
+        "code":"starts"
+    },
+    {
+        "key": "ends",
+        "value": "%_",
+        "code":"ends"
+    }
+]

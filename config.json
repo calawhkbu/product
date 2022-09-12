@@ -1,0 +1,21 @@
+{
+    "db": {
+        "hostname": "localhost",
+        "username": "hktv",
+        "password": "hktv@offbeat2022",
+        "database": "prod",
+        "port": 3306
+    },
+    "jwt": {
+        "iss": "hktv@Offbeat",
+        "expire": 86400000,
+        "TOKEN_KEY": "hktv@Offbeat@!~"
+    },
+    "PORT": 80,
+    "removeFields": [
+        "createdAt",
+        "updatedAt",
+        "createdBy",
+        "updatedBy"
+    ]
+}
